@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.candlestickschart.wayanadboothpresident">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WayanadBoothPresident"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AddSpecialLetter"></activity>
+        <activity android:name=".SpecialLetterList" />
+        <activity android:name=".AddAchievement" />
+        <activity android:name=".AchievementList" />
+        <activity android:name=".AddDeath" />
+        <activity android:name=".DeathList" />
+        <activity android:name=".AddChildBirth" />
+        <activity android:name=".ChildBirthList" />
+        <activity android:name=".AddWedding" />
+        <activity android:name=".WeddingList" />
+        <activity android:name=".AddFestival" />
+        <activity android:name=".FestivalList" />
+        <activity android:name=".SocialPersonList" />
+        <activity android:name=".InfoUpdate" />
+        <activity android:name=".LocalityOptions" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PoliticalWorkerList" />
+        <activity android:name=".BoothAgentList" />
+        <activity android:name=".EmployeScreen" />
+        <activity android:name=".BoothAgentScreen" />
+        <activity android:name=".SocialMediaScreen" />
+        <activity android:name=".ReligionScreen" />
+        <activity android:name=".ImpPersonScreen" />
+        <activity android:name=".Political_Screen" />
+        <activity android:name=".Employee" />
+        <activity android:name=".BoothAgentAc" />
+        <activity android:name=".SocialMediaAc" />
+        <activity android:name=".ReligionAc" />
+        <activity android:name=".ImpPerson" />
+        <activity android:name=".PoliticalWorker" />
+        <activity android:name=".SocialPerson" />
+        <activity android:name=".Screen3" />
+        <activity android:name=".MainDashBoard" />
+        <activity android:name=".Screen_5" />
+        <activity android:name=".Screen_4_1" />
+        <activity android:name=".Screen_4" />
+        <activity android:name=".Screen_6" />
+        <activity android:name=".Screen_6_1" />
+        <activity android:name=".LoginScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

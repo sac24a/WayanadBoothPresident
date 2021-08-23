@@ -1,0 +1,219 @@
+<resources>
+    <string name="s2.3">Type of Area</string>
+    <string name="s3.1">Type of Area</string>
+    <string name="s3.2">Employment Opportunities</string>
+    <string name="s3.3">Biggest source of local employment?</string>
+    <string name="confirmlocation">Confirm Location</string>
+    <string name="urban">Urban</string>
+    <string name="town">Small Town</string>
+    <string name="rural">Rural</string>
+    <string name="agri">Agriculture</string>
+    <string name="industry">Industry</string>
+    <string name="service">Services</string>
+    <string name="maincrop">Main crops if area if agriculture is the main source of employment</string>
+    <string name="localgroup">Local Groups</string>
+    <string name="localgrouptext">Important local groups and their influence</string>
+    <string name="power">Power Supply</string>
+    <string name="employment">Local Employment Opportunities</string>
+    <string name="mainprob">Main problems of the people</string>
+    <string name="development">Main developmental needs of the people of the area</string>
+    <string name="politicaleval">Political Evaluation</string>
+    <string name="reason">Reason</string>
+    <string name="localIssue">Important Local Issue</string>
+    <string name="condudf">Condition of UDF</string>
+    <string name="condldf">Condition of LDF</string>
+    <string name="condbjp">Condition of BJP</string>
+    <string name="condother">If any other political party has a strong influence on the area</string>
+    <string name="addnew">Add New</string>
+    <string name="udf">UDF</string>
+    <string name="ldf">LDF</string>
+    <string name="bjp">BJP</string>
+    <string name="other">Others</string>
+    <string name="govtofficial">Govt Officials</string>
+    <string name="addgovtofficial">Add Govt Official</string>
+    <string name="impperson">Important Persons</string>
+    <string name="addimpperson">Add Important Persons</string>
+    <string name="whyimp">Why is the person important?</string>
+    <string name="impact">Impact in the area</string>
+    <string name="politicalworker">Political Workers</string>
+    <string name="addpoliticalworker">Add Political Workers</string>
+    <string name="workername">Name of Worker</string>
+    <string name="socialandrelig">Social &amp; Religious Organisation</string>
+    <string name="orgname">Name of the Organisation</string>
+    <string name="supportamong">Support among which group?</string>
+    <string name="addorg">Add Organisation</string>
+    <string name="evaluation">Political Evaluation</string>
+    <string name="addsocialmedia">Add Social Media Worker</string>
+    <string name="activeon">Active On</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="facebook">Facebook</string>
+    <string name="insta">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="socialmedia">Social Media Worker</string>
+    <string name="communityleader">Important Community Leader</string>
+    <string name="commleader">Community Leaders</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="screen5">Development</string>
+    <string name="bijli">Power Supply</string>
+    <string name="_22hrs">22hrs+</string>
+    <string name="_12_22hrs">12-22hrs</string>
+    <string name="_12hrs"><![CDATA[>12hrs]]></string>
+    <string name="road">Condition of roads</string>
+    <string name="good">Good</string>
+    <string name="strong">Strong</string>
+    <string name="weak">Weak</string>
+    <string name="average">Average</string>
+    <string name="less">&lt;5km </string>
+    <string name="poor">Poor</string>
+    <string name="water_condition">Condition of drinking water</string>
+    <string name="hospital">Govt Healthcare Facilities</string>
+
+
+    <string name="area_in">In Area</string>
+    <string name="_5_km"><![CDATA[>5 Km]]></string>
+    <string name="_5_km1"><![CDATA[<5 Km]]></string>
+    <string name="school">Govt Schools</string>
+    <string name="update">Update</string>
+
+    <string name="high">High</string>
+    <string name="Medium">Medium</string>
+    <string name="Low">Low</string>
+    <string name="app_name">Wayanad Booth President</string>
+    <string name="downloadBtn">Download voter data</string>
+    <string name="downloadNote">Download voter data for the booth you wish to enter</string>
+    <string name="infoUpdate">Information Updates</string>
+    <string name="updateNote">Please Click on the voter’s name to add/ edit details about voters</string>
+    <string name="communityNote">Please select social group/ community of the family</string>
+    <string name="forwardNote">Please select community of the family (FCH)</string>
+    <string name="obcNote">Please select community of the family (OBC)</string>
+    <string name="scNote">Please select community of the family (SC)</string>
+    <string name="stNote">Please select community of the family (ST)</string>
+    <string name="christNote">Please select community of the family (Christians)</string>
+    <string name="muslimNote">Please select community of the family (Muslims)</string>
+    <string name="otherNote">Please select community of the family (Others)</string>
+    <string name="searchVoterEdittext">Seacrh</string>
+    <string name="festival">Important Festival</string>
+    <string name="wedding">Wedding in the family</string>
+    <string name="childbirth">Birth of a child</string>
+    <string name="death">Death of a family member</string>
+    <string name="achievment">Noteworthy achievements</string>
+    <string name="letter">Special Letter</string>
+    <string name="voterDetailsButtontext">Update Family Details</string>
+    <string name="selectHeadText">Please select the Head of Family</string>
+    <string name="otherCaste">Please add here</string>
+    <string name="rationCard">Type of Ration Card</string>
+    <string name="landHolding">Total Land Holding of the Family</string>
+    <string name="ration1">1. APL</string>
+
+    <string name="ration2">2. BPL</string>
+    <string name="ration3">3. Antodaya</string>
+    <string name="landEditext">Land Holding (acres)</string>
+    <string name="voterButton1">1. None</string>
+    <string name="voterButton2">2. Please Add</string>
+    <string name="voterText">15–18 year olds in the Family</string>
+    <string name="voterName">Name</string>
+    <string name="voterDOB">Date of Birth</string>
+    <string name="mobilenum">Mobile Number</string>
+    <string name="residenceText">Does the voter live here?</string>
+    <string name="residenceButton1">Yes</string>
+    <string name="residenceButton2">No</string>
+    <string name="residence">Current Residence</string>
+    <string name="residenceDOB">Date of Birth</string>
+    <string name="residenceAnni">Anniversary(if Married)</string>
+    <string name="residenceMobile">Mobile Number</string>
+
+    <string name="residenceWhatsapp">Whatsapp Number</string>
+
+    <string name="eduText">Education</string>
+    <string name="occuText">Occupation</string>
+    <string name="liveliText">Main source of livelihood for the family</string>
+    <string name="politicalText">Political Affinity of the family</string>
+
+    <string name="newVoterButton">Add New Voter</string>
+    <string name="uploadButton">Upload Data</string>
+    <string name="backButton">&lt; Back</string>
+    <string name="nextButton">Next &gt;</string>
+    <string name="boothagent">Add Booth Agent</string>
+    <string name="boothnum">Booth Number</string>
+    <string name="partyname">Party Name(Based on selection)</string>
+    <string name="agentname">Name of Booth Agent</string>
+    <string name="addressto">Letter addressed to</string>
+    <string name="achievername">Achiever\' Name</string>
+    <string name="relationachiver">Relationship with Achiever</string>
+    <string name="achievementdetail">Achievement Details</string>
+    <string name="assistance">Assistance sought(If needed)</string>
+    <string name="address">Address</string>
+    <string name="mothername">Mother\' Name</string>
+    <string name="fathername">Father\' Name</string>
+    <string name="childdob">Date of birth of the Child</string>
+    <string name="reldeceased">Relation with deceased</string>
+    <string name="namedeceased">Name of the deceased</string>
+    <string name="dod">Date of death</string>
+    <string name="cause">Cause of death(if needed)</string>
+    <string name="festivalname">Festival Name</string>
+    <string name="date">Date</string>
+    <string name="issuedetails">Issue Details</string>
+    <string name="namebride">Name of the Bride</string>
+    <string name="namebridegroom">Name of the Bridegroom</string>
+    <string name="dow">Date of Wedding</string>
+    <string name="relbride">Relation to bride</string>
+
+    <string name="age">Age (Yrs)</string>
+    <string-array name="Spinner_items">
+        <item>Spinner Item One</item>
+        <item>Spinner Item Two</item>
+        <item>Spinner Item Three</item>
+        <item>Spinner Item Four</item>
+        <item>Spinner Item Five</item>
+
+    </string-array>
+    <string-array name="party_items">
+        <item>Which party is strong</item>
+        <item>UDF</item>
+        <item>LDF</item>
+        <item>BJP</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="fav_party">
+        <item>Party leaning</item>
+        <item>UDF</item>
+        <item>LDF</item>
+        <item>BJP</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="emp_post">
+        <item>Post</item>
+        <item>Panchayat Secretary</item>
+        <item>School Principal</item>
+        <item>School Teacher</item>
+        <item>Anganwadi</item>
+        <item>ASHA</item>
+        <item>Govt Doctor</item>
+        <item>Postman, Post office</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="social_type">
+        <item>Community</item>
+        <item>General</item>
+        <item>OBC</item>
+        <item>SC/ST</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="child_type">
+        <item>Son</item>
+        <item>Daughter</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="mainUser"
+            type="com.candlestickschart.wayanadboothpresident.User" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Political_Screen">
+        <include layout="@layout/header"
+            android:id="@+id/top"
+            bind:username="@{mainUser}"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/politicalworker"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="20dp">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/newsample"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:layout_margin="10dp"
+                        android:text="@string/udf" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/newsample"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:layout_margin="10dp"
+                        android:text="@string/ldf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="20dp">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/newsample"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/button3"
+                        android:text="@string/bjp"
+                        android:layout_marginStart="40dp"
+                        />
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/newsample"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:layout_margin="10dp"
+                        android:text="@string/other"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_margin="20dp">
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/newsample"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:layout_margin="10dp"
+                        android:text="अन्य दल"
+                        android:visibility="gone"
+                        android:layout_marginStart="40dp"
+                        />
+                    <Button
+                        android:id="@+id/button6"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/newsample"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:layout_margin="10dp"
+
+                        android:text="महत्वपूर्ण व्यक्ति"
+                        android:layout_marginStart="40dp"
+                        android:visibility="invisible"
+                        />
+                </LinearLayout>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/save"
+                    android:text="Save"
+                    android:background="@drawable/newsample"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>
